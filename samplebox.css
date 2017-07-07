@@ -1,0 +1,370 @@
+<style>
+  #RightContainer,
+  #BreadcrumbContainer,
+  #SoNeContainer,
+  a[name*=Section_2]+.einspaltigG+.NonSpaceingBreak,
+  a[name*=Section_4]+.einspaltig>div>.text+div+.text .link a:before,
+  a[name*=Section_6]+.einspaltig>div>.text+div+.text .link a:before,
+  a[name*=Section_7]+.einspaltig>div>.text+div+.text .link a:before,
+  a[name*=Section_9]+.einspaltig>div>.text+div+.text .link a:before,
+  a[name*=Section_10]+.einspaltig>div>.text+div+.text .link a:before,
+  a[name*=Section_12]+.einspaltig>div>.text+div+.text .link a:before,
+  a[name*=Section_13]+.einspaltig>div>.text+div+.text .link a:before,
+  a[name*=Section_14]+.einspaltig>div>.text+div+.text .link a:before,
+  a[name*=Section_15]+.einspaltig>div>.text+div+.text .link a:before,
+  a[name*=Section_16]+.einspaltig>div>.text+div+.text .link a:before,
+  a[name*=Section_17]+.einspaltig>div>.text+div+.text .link a:before {
+    display: none !important
+  }
+  /* Expands left content to entire container */
+
+  #container #ContentContainer #LeftContent {
+    width: 100%;
+  }
+  /* Not Sure */
+
+  #container #ContentContainer #LeftContent .zweispaltigGVideo .video-js {
+    height: 312px;
+  }
+  /* Background color for some divs */
+
+  .dreispaltigG,
+  .dreispaltigG div .text,
+  .dreispaltigG div .text,
+  .dreispaltigG .list,
+  .dreispaltigG .list,
+  .dreispaltigG div.link {
+    background: #ececec;
+  }
+  /* Tile Border */
+
+  .dreispaltigG {
+    border: 2px solid #ececec;
+    padding: 0px;
+    min-height: 400px;
+  }
+  /*Tile Orange Hover*/
+
+  .dreispaltigG:hover {
+    border: 2px solid #f07d00;
+  }
+  /* Aligning and sizing images in tiles */
+
+  .dreispaltigG div div {
+    background: #fff;
+  }
+  /* Center aligning text in tiles*/
+
+  .dreispaltigG div .text {
+    clear: both;
+    padding: 0 16px;
+    height: calc(400px - 163px);
+  }
+
+
+  a[name*=Section_5]+.einspaltig+.dreispaltigG,
+  a[name*=Section_8]+.einspaltig+.dreispaltigG,
+  a[name*=Section_11]+.einspaltig+.dreispaltigG,
+  a[name*=Section_14]+.einspaltig+.dreispaltigG {
+    margin-left: 16px;
+  }
+
+  a[name*=Section_5]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
+  a[name*=Section_8]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
+  a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
+  a[name*=Section_14]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
+    margin-right: -2px;
+  }
+  /* CTA Button Styling */
+
+  a[name*=Section_6]+.einspaltigG>div>.text+div+.text .link a,
+  a[name*=Section_9]+.einspaltigG>div>.text+div+.text .link a,
+  a[name*=Section_12]+.einspaltigG>div>.text+div+.text .link a,
+  a[name*=Section_15]+.einspaltigG>div>.text+div+.text .link a {
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 15px;
+    background-position: 10px;
+    background-size: 30px;
+    background-color: #F07D00;
+    color: #fff;
+    text-decoration: none;
+  }
+  /* Online Shop Text */
+
+  a[name*=Section_6]+.einspaltigG>div>.text+div+.text p,
+  a[name*=Section_9]+.einspaltigG>div>.text+div+.text p,
+  a[name*=Section_12]+.einspaltigG>div>.text+div+.text p,
+  a[name*=Section_9]+.einspaltigG>div>.text+div+.text p,
+  a[name*=Section_15]+.einspaltigG>div>.text+div+.text p {
+    position: absolute;
+
+    top: 86px;
+  }
+  /* Online Shop Button*/
+
+  a[name*=Section_6]+.einspaltigG>div>.text+div+.text .link a,
+  a[name*=Section_9]+.einspaltigG>div>.text+div+.text .link a,
+  a[name*=Section_12]+.einspaltigG>div>.text+div+.text .link a,
+  a[name*=Section_9]+.einspaltigG>div>.text+div+.text .link a,
+  a[name*=Section_15]+.einspaltigG>div>.text+div+.text .link a {
+    position: absolute;
+    right: 120px;
+    top: 76px;
+  }
+  /* Button Hover */
+
+  a[name*=Section_6]+.einspaltigG>div>.text+div+.text .link a:hover,
+  a[name*=Section_9]+.einspaltigG>div>.text+div+.text .link a:hover,
+  a[name*=Section_12]+.einspaltigG>div>.text+div+.text .link a:hover,
+  a[name*=Section_9]+.einspaltigG>div>.text+div+.text .link a:hover,
+  a[name*=Section_15]+.einspaltigG>div>.text+div+.text .link a:hover {
+    /* v important*/
+    background-color: #D26E00;
+    text-decoration: none !important;
+  }
+  /*Consultation Styling & Online Shop*/
+
+  a[name*=Section_4]+.einspaltig h2,
+  a[name*=Section_6]+.einspaltigG h2,
+  a[name*=Section_7]+.einspaltig h2,
+  a[name*=Section_10]+.einspaltig h2,
+  a[name*=Section_13]+.einspaltig h2,
+  a[name*=Section_9]+.einspaltigG h2,
+  a[name*=Section_12]+.einspaltigG h2,
+  a[name*=Section_14]+.einspaltig h2,
+  a[name*=Section_15]+.einspaltigG h2,
+  a[name*=Section_16]+.einspaltig h2,
+  a[name*=Section_17]+.einspaltig h2 {
+    background: #f07d00;
+    margin: 0;
+    padding: 8px 16px;
+    color: #fff;
+    font-weight: 400;
+  }
+  /* Header */
+  /* Header Spacing */
+
+  #commercial {
+    margin: 22px 16px 0 16px;
+  }
+  /*Header Text*/
+
+  h1 {
+    position: absolute;
+    top: -258px;
+    font-size: 60px;
+    left: -1px;
+    color: #fff;
+  }
+  /* Online Shop*/
+
+  a[name*=Section_6]+.einspaltigG>div>.text+div+.text,
+  a[name*=Section_9]+.einspaltigG>div>.text+div+.text,
+  a[name*=Section_12]+.einspaltigG>div>.text+div+.text,
+  a[name*=Section_9]+.einspaltigG>div>.text+div+.text,
+  a[name*=Section_15]+.einspaltigG>div>.text+div+.text {
+    position: absolute;
+    top: 0;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 16px;
+  }
+
+  .hs-button.primary.large {
+    position: absolute;
+    right: 36px;
+    top: -48px;
+    width: 200px;
+    height: 40px;
+    background: #f07d00;
+    border: 0px transparent;
+    color: #fff;
+  }
+
+  .hs-button.primary.large:hover {
+    background-color: #d26e00;
+  }
+
+  a[name*=Section_17]+.einspaltig .text_ohne_bild,
+  a[name*=Section_16]+.einspaltig .text_ohne_bild {
+    background: #ececec;
+    padding: 0px;
+    min-height: 515px;
+  }
+
+  a[name*=Section_17]+.einspaltig .text_ohne_bild ul,
+  a[name*=Section_16]+.einspaltig .text_ohne_bild ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  a[name*=Section_2]+.einspaltigG>div>.text h2,
+  a[name*=Section_2]+.einspaltigG>div>.text+div+.text{
+    float: right;
+    margin-right: 30px;
+  }
+
+  .hbspt-form form {
+    padding-top: 0 !important;
+  }
+
+  #part_number_s_-e391d8fc-2a6c-444d-b2f8-51183a5a2cee,
+  #quantity-e391d8fc-2a6c-444d-b2f8-51183a5a2cee {
+    height: 30px;
+    line-height: 50px;
+    width: 520px;
+    padding-left: 15px;
+    border: 1px solid #ABABAB;
+    margin-bottom: 30px;
+  }
+
+  .form-columns-3 .hs-input {
+    height: 30px;
+    line-height: 50px;
+    width: 330px;
+    padding-left: 15px;
+    border: 1px solid #ABABAB;
+  }
+
+  .form-columns-3 .hs-richtext {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+
+  .form-columns-2 div {
+    width: 50% !important;
+  }
+
+  .form-columns-3,
+  .form-intro {
+    margin-bottom: 30px !important;
+  }
+
+  .form-columns-1 {
+    max-width: 100% !important;
+  }
+
+  .form-columns-1 .hs-richtext {
+    margin-bottom: 15px;
+  }
+
+
+  .form-intro {
+    display: block;
+  }
+
+  .form-columns-3 div {
+    width: 33.33% !important;
+  }
+
+  .form-columns-1 .hs-input {
+    height: 120px;
+    width: 850px;
+    max-width: 850px;
+    min-height: 120px;
+  }
+
+  .form-columns-2,
+  .form-columns-3 {
+    max-width: 100% !important;
+  }
+
+
+  a[name*=Section_2]+.einspaltigG .text h2 {
+    font-size: 80px;
+  }
+
+  a[name*=Section_2]+.einspaltigG .text p {
+    top: -250px;
+    font-size: 16px;
+  }
+
+  h1 {
+    top: 160px;
+    font-size: 20px;
+  }
+
+  a[name*=Section_2]+.einspaltigG .text p,
+  a[name*=Section_2]+.einspaltigG .text h2,
+  h1 {
+    position: absolute;
+    z-index: 999;
+    right: 30px;
+    color: #fff !important;
+    width: 540px;
+  }
+
+  a[name*=Section_2]+.einspaltigG .text h2 {
+    top: 100px;
+  }
+
+  p.afterSubmitted {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  p.afterSubmittedSmaller {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  p.othersample {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  p.brochuretext {
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    font-color: #f58220;
+  }
+
+  #LeftContent .LinkList .link a:before {
+    display: none !important;
+  }
+
+  #LeftContent .LinkList .link a {
+    border: 2px solid #fff;
+    height: 50px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    color: #fff !important;
+    padding: 3px;
+    width: 87px;
+  }
+
+  #LeftContent .LinkList .link a:hover {
+    background: #fff;
+    color: #f07d00 !important;
+  }
+
+  #LeftContent .LinkList .link a:hover {
+    text-decoration: none !important;
+  }
+
+  #LeftContent .LinkList {
+    display: flex;
+    flex-direction: row;
+    width: 540px !important;
+    left: auto !important;
+    right: 60px;
+    position: absolute;
+    top: -175px;
+  }
+
+  .LinkList .link {
+    width: auto !important;
+    margin-right: 30px;
+  }
+
+.ContentBreak{
+height: 0px;
+}
+</style>
