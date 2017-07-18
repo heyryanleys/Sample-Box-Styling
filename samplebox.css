@@ -1,4 +1,3 @@
-<style>
   #RightContainer,
   #BreadcrumbContainer,
   #SoNeContainer,
@@ -30,8 +29,6 @@
 
   .dreispaltigG,
   .dreispaltigG div .text,
-  .dreispaltigG div .text,
-  .dreispaltigG .list,
   .dreispaltigG .list,
   .dreispaltigG div.link {
     background: #ececec;
@@ -175,7 +172,6 @@
   .hs-button.primary.large {
     position: absolute;
     right: 36px;
-    top: -48px;
     width: 200px;
     height: 40px;
     background: #f07d00;
@@ -185,6 +181,10 @@
 
   .hs-button.primary.large:hover {
     background-color: #d26e00;
+  }
+
+  .hs-form {
+    margin-bottom: 35px;
   }
 
   a[name*=Section_17]+.einspaltig .text_ohne_bild,
@@ -364,7 +364,6 @@
     margin-right: 30px;
   }
 
-.ContentBreak{
-height: 0px;
-}
-</style>
+  .ContentBreak{
+    height: 0px;
+  }
