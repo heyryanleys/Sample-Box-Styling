@@ -1,0 +1,143 @@
+<style>
+span[id*=section_2]+.einspaltig+.zweispaltigG + .zweispaltig div .text_ohne_bild{
+  position: absolute;
+  margin-left: -30%;
+  margin-top: 4%;
+  width: 135% !important;
+}
+
+span[id*=section_2]+.einspaltig+.zweispaltigG + .zweispaltig div .text_ohne_bild h2{
+  font-size: 40px !important;
+  line-height: 42px !important;
+}
+
+span[id*=section_2]+.einspaltig+.zweispaltigG div img {
+  max-width: 65%;
+  margin-left: 5% !important;
+}
+
+.cta-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cta-flex div {
+  background-color: #f58220;
+  min-width: 150px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.cta-flex div a{
+  color: white;
+}
+
+.hs-richtext{
+  padding-top: 15px;
+}
+
+.form-columns-2, .form-intro {
+  margin-bottom: 10px !important;
+}
+
+.form-columns-1 .hs-input, .form-columns-2 .hs-input, .form-columns-3 .hs-input {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+  border: 1px solid #ABABAB;
+  padding: 0 20px;
+  color: #000;
+}
+
+.form-columns-1{
+  max-width: 97.9% !important;
+}
+
+.form-columns-3 .hs-input{
+  width: 290%;
+}
+
+.form-columns-2 .hs-input{
+  width: 190%;
+}
+
+.form-columns-3 div{
+  max-width: 33% !important;
+}
+.form-columns-2 div{
+  max-width: 50% !important;
+}
+
+.form-columns-3{
+  max-width: 100% !important;
+}
+.form-columns-2{
+  max-width: 100% !important;
+}
+.inputs-list {
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+
+textarea {
+    resize: none;
+    height: 100px !important;
+    padding-left: 15px !important;
+  }
+
+.hs-button.primary.large {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  background: #f07d00;
+  border: 0px transparent;
+  border-radius: 0px;
+  color: #fff;
+  box-shadow: 0 10px 12px 0 rgba(0,0,0,0.22);
+}
+
+.hs-button.primary.large:hover {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  transition: .5s ease-out;
+  cursor: pointer;
+}
+
+.actions {
+  padding-top: 2%;
+}
+
+.hs-form-required {
+  display:none;
+}
+
+.hs_recaptcha {
+  padding-top: 2%
+}
+
+[name="country"]{
+  background-image: url(/contentData/wpck/images/US_en/common/icon-sprite-v4.png);
+  background-size: 235px;
+  background-position: right -170px;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
+
+.HS-CONTACT{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
